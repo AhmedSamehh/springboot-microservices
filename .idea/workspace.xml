@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f83564c6-fbc2-4124-bc7a-acf2f20ffec9" name="Changes" comment="added eureka server">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="f83564c6-fbc2-4124-bc7a-acf2f20ffec9" name="Changes" comment="added eureka clients">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/seha/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/seha/customer/CustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/seha/customer/CustomerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/seha/customer/CustomerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/seha/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/seha/customer/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fraud/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,8 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FraudApplication" />
         <item itemvalue="Application.CustomerApplication" />
+        <item itemvalue="Application.FraudApplication" />
         <item itemvalue="Application.EurekaServerApp" />
       </list>
     </recent_temporary>
@@ -240,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700340511234</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added eureka clients">
+      <option name="closed" value="true" />
+      <created>1700431909580</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700431909580</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,6 +271,7 @@
     <MESSAGE value="added fraud controller service, repository" />
     <MESSAGE value="communicating with restTemplate" />
     <MESSAGE value="added eureka server" />
-    <option name="LAST_COMMIT_MESSAGE" value="added eureka server" />
+    <MESSAGE value="added eureka clients" />
+    <option name="LAST_COMMIT_MESSAGE" value="added eureka clients" />
   </component>
 </project>
